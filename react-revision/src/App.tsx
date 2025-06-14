@@ -1,3 +1,4 @@
+import Alert from "./components/Alert";
 import ListGroup from "./components/ListGroup";
 import Message from "./components/Message";
 
@@ -11,6 +12,7 @@ function App() {
   return (
     // <div> <Message /> </div>
     <div> 
+      <Alert><h2>TRAVEL & TOUR</h2></Alert>
       <ListGroup heading={heading}  states={states} onSelectState={logState}/> 
     </div>
   );
